@@ -1,3 +1,3 @@
 # project
 learning php\
-Ручной MVC проект
+Ручной MVC проект 2.0
