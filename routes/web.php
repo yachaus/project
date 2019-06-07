@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@home');
+
+Route::resource('projects','ProjectController');
+
+
+Route::patch('/task/{task}','ProjectTasksController@update');
