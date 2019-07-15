@@ -13,8 +13,13 @@
     </style>
 </head>
 <body>
-
-<h1 style="margin: 20px"><a href="/projects">All Projects</a></h1>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/projects">
+            <img src="https://www.logolynx.com/images/logolynx/29/2904cc5f17a519e7b456ac7b6200dfa7.png" width="180">
+        </a>
+    </div>
+</nav>
 <div class="content" style="margin: 20px">
     @yield('content')
 </div>
