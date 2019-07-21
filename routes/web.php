@@ -16,8 +16,6 @@ Route::get('/', 'PagesController@home');
 Route::resource('projects','ProjectController');
 
 Route::post('/projects/{project}/tasks','ProjectTasksController@store');
-Route::patch('/task/{task}','ProjectTasksController@update');
-Route::delete('/task/{task}','ProjectTasksController@destroy');
 
 Route::post('/completed-tasks/{task}', 'CompletedTasksController@store');
 Route::delete('/completed-tasks/{task}', 'CompletedTasksController@destroy');
